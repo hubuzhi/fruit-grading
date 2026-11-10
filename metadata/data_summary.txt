@@ -1,0 +1,31 @@
+FRUIT DATASET SUMMARY
+============================================================
+Generated: 2026-11-03T19:23:07
+Dataset root: C:\Users\WZY\Desktop\Fruit_Project\Fruit_Project
+
+Images used (Good + Bad): 18,452
+  Good: 11,664
+  Bad:  6,788
+Mixed excluded: 1,074
+Raw total including Mixed: 19,526
+
+Official split:
+  train: 12,911 ( 70.0%)
+  val  :  2,763 ( 15.0%)
+  test :  2,778 ( 15.1%)
+
+Corrupt / unreadable images: 0
+Exact duplicate groups: 0
+Duplicate groups crossing splits: 0
+
+Class weights for weighted loss:
+  Good: 0.790981
+  Bad:  1.359163
+
+Images per fruit:
+  Apple        Good=1,149 Bad=1,141
+  Banana       Good=1,113 Bad=1,087
+  Guava        Good=1,152 Bad=1,129
+  Lime         Good=1,094 Bad=1,085
+  Orange       Good=1,216 Bad=1,159
+  Pomegranate  Good=5,940 Bad=1,187

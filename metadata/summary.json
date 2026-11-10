@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-03T19:23:07",
+  "dataset_root": "C:\\Users\\WZY\\Desktop\\Fruit_Project\\Fruit_Project",
+  "total_used": 18452,
+  "good": 11664,
+  "bad": 6788,
+  "mixed_excluded": 1074,
+  "raw_total_including_mixed": 19526,
+  "split_counts": {
+    "train": 12911,
+    "val": 2763,
+    "test": 2778
+  },
+  "bad_images": 0,
+  "exact_duplicate_groups": 0,
+  "duplicate_groups_crossing_splits": 0,
+  "image_sizes": {
+    "256x256": 12508,
+    "192x256": 3968,
+    "256x192": 1391,
+    "3000x4000": 381,
+    "8000x6000": 183,
+    "144x256": 12,
+    "256x144": 9
+  },
+  "class_weights": {
+    "Good": 0.790981,
+    "Bad": 1.359163
+  },
+  "fruits": {
+    "Apple": {
+      "Good": 1149,
+      "Bad": 1141
+    },
+    "Banana": {
+      "Good": 1113,
+      "Bad": 1087
+    },
+    "Guava": {
+      "Good": 1152,
+      "Bad": 1129
+    },
+    "Lime": {
+      "Good": 1094,
+      "Bad": 1085
+    },
+    "Orange": {
+      "Good": 1216,
+      "Bad": 1159
+    },
+    "Pomegranate": {
+      "Good": 5940,
+      "Bad": 1187
+    }
+  }
+}

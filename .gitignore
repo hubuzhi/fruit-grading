@@ -1,0 +1,27 @@
+# 模型权重（体积大，用 scripts/ 下的脚本重新训练生成）
+models/
+*.pth
+*.pt
+*.onnx
+
+# 单文件打包版应用（约 34 MB，本地演示用，不放入仓库）
+app/
+
+# 数据集原图（体积过大，请按 README 从 Kaggle 下载）
+dataset/
+*.jpg
+*.jpeg
+*.png
+!eval/figs/*.png
+!metadata/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 系统
+.DS_Store
+Thumbs.db
